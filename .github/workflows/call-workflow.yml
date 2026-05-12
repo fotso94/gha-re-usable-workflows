@@ -5,7 +5,7 @@ jobs:
     call-greeting:
         uses: ./.github/workflows/reusable.yml
         with:
-            name: "Hari Kammana"
+            name: "Stephane the AI/ML Engineer"
         secrets:
             my_secret: ${{ secrets.MY_SECRET }}
     output-test:
